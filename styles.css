@@ -196,3 +196,48 @@ h2 {
     background-color: #6e0000;
     border: #ffffff 1px solid;
  }
+
+ .alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+
+.alto-contraste #tropicalia {
+    background: none;
+}
+
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+.alto-contraste .fundo-galeria {
+    background: none;
+}
+
+#botao-acessibilidade{
+    background-color: #6e0000;
+    color: #000000;
+    border: #423028 1px solid;
+}
